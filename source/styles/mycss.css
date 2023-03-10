@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #000c8b 0%, #000000 100%);
+}
+p {
+    color: aquamarine;
+}
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(105, 71, 44);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(87, 91, 94);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #000c8b 0%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #000c8b 0%, #000000 100%);
+    
+}
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #000c8b 0%, #000000 100%);
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    
+    animation: call 1s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
